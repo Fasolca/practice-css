@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-image: linear-gradient(#A496F8 , #E9BBAE);
+    background-repeat: no-repeat;
+}
+
+nav {
+    padding-top: 80px;
+    padding-left: 100px;   
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    width: 350px;
+    height: 150px;
+    line-height: 150px;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    padding-left: 250px;
+    background-color: rgba(77, 120, 136, 0.3);
+    background-position-x: 100px ;
+    background-position-y: center;
+    font-size: 40px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #714F43;
+   
+}
+
+.edit {
+    background-image: url("./icons/edit.png");
+}
+
+.favorites {
+    background-image: url("./icons/favorites.png");
+}
+
+.history {
+    background-image: url("./icons/history.png");
+}
+
+.security {
+    background-image: url("./icons/security.png");
+}
+
+.settings {
+    background-image: url("./icons/settings.png");
+}
+
+a:link {
+    color: rgb(61, 58, 58);
+}
+
+a:visited {
+    color: rgb(155, 86, 155);
+}
+
+a:hover {
+    background-color: rgba(45, 72, 82, 0.3);
+    transition: 1s;
+    border-radius:0 20px 0 20px;
+    color: #3f8ca8;
+    box-shadow: 0px 0px 10px 0px #000;;
+}
+
+a:active {
+    color: #E9BBAE;
+}
+
